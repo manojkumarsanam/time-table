@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Time Table</title>
+        <style>
+            table, th, td {
+              border: 2px solid black;
+              border-collapse: collapse;
+              text-align: center;
+            }
+            th, td 
+            {
+                padding:2px;
+            }
+            table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+            </style>
+    </head>
+    <body>
+        <table class="center">
+            <caption><b>Time Table (CSE-D)</b></caption>
+            <tr>
+                <th>Day</th>
+                <th>8:00-8:55</th>
+                <th>8:55-9:15</th>
+                <th>9:15-10:10</th>
+                <th>10:10-11:05</th>
+                <th>11:05-11:15</th>
+                <th>11:15-12:10</th>
+                <th>12:10-1:05</th>
+                <th>1:05-1:35</th>  
+                <th>1:35-2:30</th>
+                <th>2:30-3:20</th>
+                <th>3:20-3:55</th>
+            </tr>
+            <tr>
+                <td>Mon</td>
+                <td>FLAT</td>
+                <td rowspan="6">Break</td>
+                <td>UP</td>
+                <td>DAA</td>
+                <td rowspan="6">Break</td>
+                <td>Verbal</td>
+                <td>TT(FLAT)</td>
+                <td rowspan="6">Lunch</td>
+                <td>AJWT</td>
+                <td>MEFA</td>
+                <td>PT(AJWT)</td>
+            </tr>
+            <tr>
+                <td>Tue</td>
+                <td>MEFA</td>
+                <!-- <td>BREAK</td> -->
+                <td>AJWT</td>
+                <td>FLAT</td>
+                <!-- <td>Break</td> -->
+                <td colspan="2" style="color:red;">DAA Lab-3</td>
+                <!-- <td>DAA Lab-3</td> -->
+                <!-- <td>Lunch</td> -->
+                <td>TT(DAA)</td>
+                <td>UP</td>
+                <td>PT(FLAT)</td>
+            </tr>
+            <tr>
+                <td>Wed</td>
+                <td>DAA</td>
+                <!-- <td>BREAK</td> -->
+                <td>MEFA</td>
+                <td>AJWT</td>
+                <!-- <td>Break</td> -->
+                <td colspan="2" style="color:red;">AJWT Lab-4</td>
+                <!-- <td>AJWT Lab-4</td> -->
+                <!-- <td>Lunch</td> -->
+                <td>FLAT</td>
+                <td>UP</td>
+                <td>PT(MEFA)</td>
+            </tr>
+            <tr>
+                <td>Thu</td>
+                <td style="color:red;">UP Lab-3</td>
+                <!-- <td>BREAK</td> -->
+                <td style="color:red;">UP Lab-3</td>
+                <td>UP</td>
+                <!-- <td>Break</td> -->
+                <td>FLAT</td>
+                <td>DAA</td>
+                <!-- <td>Lunch</td> -->
+                <td>MEFA</td>
+                <td>AJWT</td>
+                <td>PT(DAA)</td>
+            </tr>
+            <tr>
+                <td>Fri</td>
+                <td>UP</td>
+                <!-- <td>BREAK</td> -->
+                <td>DAA</td>
+                <td>MEFA</td>
+                <!-- <td>Break</td> -->
+                <td>UP</td>
+                <td>FLAT</td>
+                <!-- <td>Lunch</td> -->
+                <td>AJWT</td>
+                <td colspan="2" style="color:red;">Clubs</td>
+                <!-- <td>Clubs</td> -->
+            </tr>
+            <tr>
+                <td>Sat</td>
+                <td>DAA</td>
+                <!-- <td>BREAK</td> -->
+                <td>AJWT</td>
+                <td style="color:red;">Reasoning</td>
+                <!-- <td>Break</td> -->
+                <td>UP</td>
+                <td style="color:red;">Counselling</td>
+                <!-- <td>Lunch</td> -->
+                <td style="color:red;">Quants</td>
+                <td>MEFA</td>
+                <td>PT(UP)</td>
+            </tr>
+        </table>
+    </body>
+</html>
